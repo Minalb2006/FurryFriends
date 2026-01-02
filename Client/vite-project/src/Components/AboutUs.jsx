@@ -1,10 +1,12 @@
 import React from 'react'
+import img1 from '../imges/divvya-removebg-preview.png';
+
 
 
 function AboutUs() {
   return (
     <>
-    <section className=" bg-[#f5cf7b] w-full mx-auto px-6 py-16 items-center justify-center text-center ">
+    <section className=" bg-[#f5cf7b] w-full h-auto mx-auto px-6 py-16 items-center justify-center text-center ">
             <div className="teamMember">
                 <h1 className=" text-4xl md:text-6xl font-black leading-tight text-[#522c22] ">
                     Meet the <span className="text-[#522c22]"> Team Behind Paws Hope.</span>
@@ -29,7 +31,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img2  }
+                        src={img1  }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -39,7 +41,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img3  }
+                        src={img1  }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -49,7 +51,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img4  }
+                        src={img1  }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -59,7 +61,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img5  }
+                        src={img1 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -69,7 +71,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img6  }
+                        src={img1 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -79,7 +81,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img7  }
+                        src={img1  }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -89,7 +91,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img8}
+                        src={img1}
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
