@@ -13,10 +13,11 @@ function App() {
    
    <BrowserRouter>
     <Adopt/>
-    <Adoptform/>
+    
    <Routes>
         <Route path="/" element={<Adopt />} />
-        <Route path="/adoptform" element={<Adoptform />} />
+        {/* <Route path="/Adoptform" element={<Adoptform />} /> */}
+        
       </Routes>
     </BrowserRouter>
       {/* <Navbar/>
