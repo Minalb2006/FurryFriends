@@ -1,5 +1,12 @@
 import React from 'react'
-import img1 from '../imges/divvya-removebg-preview.png';
+import img1 from '../imges/divvya-removebg-preview.png'
+import img2 from '../imges/bhavna_photo-removebg-preview - Copy.png'
+import img3 from '../imges/steffi-removebg-preview (1) - Copy.png'
+import img4 from '../imges/vedu2-removebg-preview.png'
+import img5 from '../imges/acchal-removebg-preview.png'
+import img6 from '../imges/dhan-removebg-preview.png'
+import img7 from '../imges/minal-removebg-preview.png'
+import img8 from '../imges/poonam-removebg-preview.png'
 
 
 
@@ -31,7 +38,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1  }
+                        src={img2 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -41,7 +48,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1  }
+                        src={img3 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -51,7 +58,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1  }
+                        src={img4 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
@@ -61,7 +68,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1 }
+                        src={img5 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -71,7 +78,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1 }
+                        src={img6 }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -81,7 +88,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1  }
+                        src={img7  }
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
@@ -91,7 +98,7 @@ function AboutUs() {
                 </div>
                 <div >
                     <img
-                        src={img1}
+                        src={img8}
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  

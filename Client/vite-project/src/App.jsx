@@ -4,7 +4,9 @@ import { BrowserRouter , Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar.jsx'
 import Signup from './Components/Signup.jsx'
 import Login from './Components/Login.jsx'
-import AboutUs from './Components/AboutUs.jsx'
+import Aboutsmain from './Page/Aboutsmain.jsx'
+// import AboutUs from './Components/AboutUs.jsx'
+
 
 function App() {
   return (
@@ -13,16 +15,18 @@ function App() {
 
      <BrowserRouter>
       <Navbar/>
+      {/* <AboutUs/> */}
+      <Aboutsmain/>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/AboutUs" element={<AboutUs/>}/>
+        {/* <Route path="/AboutUs" element={<AboutUs/>}/> */}
       </Routes>
     </BrowserRouter>
 
 
     </>
   )
-}
+}   
 
 export default App;
