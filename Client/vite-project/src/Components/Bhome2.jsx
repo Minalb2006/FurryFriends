@@ -3,18 +3,18 @@ import React from 'react'
 function Bhome2() {
   return (
     <>
-     <section className="bg-[#fff6ee] min-h-[60vh] flex items-center justify-center px-4">
+     <section className="bg-[#ffbf80] min-h-[60vh] flex items-center justify-center px-4">
       <div className="text-center max-w-2xl">
         
         {/* Icon */}
         <div className="flex justify-center mb-6">
-          <div className="w-14 h-14 rounded-full bg-[#ffe4c7] flex items-center justify-center">
+          <div className="w-14 h-14 rounded-full bg-[#ffbf80] flex items-center justify-center">
             <span className="text-2xl">💛</span>
           </div>
         </div>
 
         {/* Heading */}
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#66483e] mb-4">
           Our Mission is Simple: Love & Care
         </h1>
 

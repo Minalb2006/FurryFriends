@@ -4,7 +4,7 @@ import img1 from '../imges/pexels-chevanon-1108099.jpg'
 function Bhome1() {
   return (
     <>
-      <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
+      <div className="flex justify-center items-center min-h-screen bg-[#e69900] p-4">
       <div
         className="relative w-full max-w-5xl h-[500px] rounded-3xl overflow-hidden shadow-xl"
         style={{backgroundImage:

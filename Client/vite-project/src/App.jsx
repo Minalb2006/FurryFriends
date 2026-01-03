@@ -5,7 +5,6 @@ import React from 'react'
 // import Signup from './Components/Signup.jsx'
 // import Login from './Components/Login.jsx'
 // import Aboutsmain from './Page/Aboutsmain.jsx'
-import Homemain from './Page/Homemain.jsx';
 
 
 import { BrowserRouter , Routes, Route } from 'react-router-dom'
@@ -16,36 +15,30 @@ import Signup from './Components/Signup.jsx'
 import Login from './Components/Login.jsx'
 import Manual from './Components/Manual.jsx'
 import Footer from './Components/Footer.jsx'
+import Homemain from './Page/Homemain.jsx';
+
 
 function App() {
   return (
     <>
      
 
-     {/* <BrowserRouter> */}
-      {/* <Navbar/> */}
-      {/* { <Aboutsmain/> } */}
-      <Homemain/>
-       {/* <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/AboutUs" element={<AboutUs/>}/>
-       </Routes>
-    </BrowserRouter> }  */}
-   
+     
   
-       <Navbar/>
+      
     <BrowserRouter>
+     <Navbar/>
       <Routes>
+        <Route path="/"  element={<Homemain/>} />
         <Route path="/manual" element={<Manual />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/adoptform" element={<Adoptform />} />
       </Routes>
-     
-    </BrowserRouter> 
       <Footer/>
+    </BrowserRouter> 
+     
     
    
 
