@@ -14,8 +14,9 @@ function App() {
     <>
    
   
-       <Navbar/>
+      
     <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route path="/manual" element={<Manual />} />
         <Route path="/login" element={<Login />} />
@@ -23,9 +24,9 @@ function App() {
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/adoptform" element={<Adoptform />} />
       </Routes>
-     
+     <Footer/>
     </BrowserRouter> 
-      <Footer/>
+      
     
    
 
