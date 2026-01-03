@@ -6,12 +6,12 @@ function Bhome1() {
     <>
       <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
       <div
-        className="relative w-full max-w-5xl h-[420px] rounded-3xl overflow-hidden shadow-xl"
+        className="relative w-full max-w-5xl h-[500px] rounded-3xl overflow-hidden shadow-xl"
         style={{backgroundImage:
             `url( ${img1})`, backgroundSize: "cover", backgroundPosition: "center",}} >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
-
+ 
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
           <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight">
